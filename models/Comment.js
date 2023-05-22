@@ -27,6 +27,14 @@ Comment.init(
                 key: 'id',
             },
         },
+        // Pending review
+        post_id: {
+            type: DataTypes.INTEGER,
+            references: {
+                model: 'post',
+                key: 'id',
+            },
+        },
     },
     {
         sequelize,
