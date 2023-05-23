@@ -1,0 +1,17 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.list li{
+    margin-right: 40px;
+}
+.list li a{
+    text-decoration: none;
+}
+.login, .signup, .post, .comment{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    /* padding: 10px; */
+}
