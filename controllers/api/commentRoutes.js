@@ -2,8 +2,6 @@ const router = require('express').Router();
 const { Comment } = require('../../models');
 const withAuth = require('../../helpers/withAuth');
 
-// Getting Post by id
-
 
 // Creating a new comment
 router.post('/:id',withAuth,async(req,res)=>{

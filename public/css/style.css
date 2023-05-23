@@ -15,3 +15,10 @@
     width: 25%;
     /* padding: 10px; */
 }
+.postTitle{
+    display:flex;
+    flex-direction: row;
+}
+.postTitle p{
+    margin-left: 60px;
+}
